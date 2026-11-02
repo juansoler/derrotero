@@ -883,8 +883,6 @@ Los componentes de terceros y sus licencias están en
 - Derrotero **no está afiliado, patrocinado ni respaldado** por Navico, B&G, Simrad,
   Lowrance, Raymarine, Garmin/Navionics ni OpenCPN. Los nombres de producto se usan solo
   para describir compatibilidad.
-- La app no incluye firmware, código decompilado, cartas propietarias ni datos extraídos de
-  ningún plotter.
 
 ## 16. Privacidad
 
@@ -915,9 +913,3 @@ La descarga masiva de teselas está **desactivada** para los proveedores que no 
 Solo se permite en plantillas XYZ añadidas por el usuario (bajo su responsabilidad) y en
 fuentes cuyo uso offline esté autorizado.
 
-## 18. Publicar este proyecto
-
-Este repositorio contiene **solo la app Android**. No publiques junto a ella firmware de
-plotters, cartas propietarias, datos extraídos de dispositivos, informes de ingeniería
-inversa ni ficheros `.upd`. El `.gitignore` ya excluye esos formatos, pero revísalo con
-`git ls-files` antes del primer push.
