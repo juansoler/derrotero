@@ -470,7 +470,7 @@ tools/mock_nmea.py                    # multiplexor NMEA 0183 TCP de prueba (GPS
 
 ## 6. Limitaciones conocidas
 
-* **Formatos propietarios** (Navionics, CM93, S-63 cifrado, BSB4, NV Charts): no
+* **Formatos propietarios** (CM93, S-63 cifrado, BSB4, NV Charts): no
   soportados. La app no descifra ni elude protecciones de ningún formato.
 * **S-57**: se lee la celda base `.000` y se aplican las actualizaciones `.001`, `.002`…
   Los estilos S-52 son una aproximación: hay áreas de profundidad, tierra, costas, balizas,
