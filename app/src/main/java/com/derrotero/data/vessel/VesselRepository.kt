@@ -367,14 +367,14 @@ class VesselRepository(
         )
 
         var t = 0.0
-        var lat = 43.3000
-        var lon = -2.9500
-        var heading = Math.toRadians(45.0)
+        var lat = 43.3450
+        var lon = -3.0450
+        var heading = Math.toRadians(300.0)
 
         val names = DemoData.aisNames
         val mmsi = DemoData.aisMmsi
-        val aisLat = doubleArrayOf(43.3150, 43.2850, 43.3100)
-        val aisLon = doubleArrayOf(-2.9350, -2.9750, -2.9700)
+        val aisLat = doubleArrayOf(43.3550, 43.3370, 43.3520)
+        val aisLon = doubleArrayOf(-3.0350, -3.0300, -3.0620)
         val aisHdg = doubleArrayOf(210.0, 30.0, 120.0)
         val aisSogKn = doubleArrayOf(6.5, 4.2, 5.8)
 

@@ -23,6 +23,18 @@ probado con un plotter B&G/Navico, pero no depende de ninguna marca.
 
 **Repositorio:** <https://github.com/juansoler/derrotero>
 
+## Capturas de pantalla
+
+| Carta | Instrumentos | Viento |
+|---|---|---|
+| ![Carta náutica con AIS y waypoints](docs/screenshots/carta.png) | ![Instrumentos y piloto automático](docs/screenshots/instrumentos.png) | ![Página de viento con plan de velas](docs/screenshots/viento.png) |
+
+| Waypoints y rutas | Cartas | Ajustes |
+|---|---|---|
+| ![Waypoints y rutas](docs/screenshots/rutas.png) | ![Fuentes de cartas](docs/screenshots/cartas.png) | ![Ajustes de conexión](docs/screenshots/ajustes.png) |
+
+*Capturas tomadas en modo demo: los datos de posición, viento, AIS y rumbo son simulados.*
+
 ---
 
 ## 0. Cambios de la versión 0.9.4

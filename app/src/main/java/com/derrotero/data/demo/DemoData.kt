@@ -11,18 +11,18 @@ import com.derrotero.data.resources.Waypoint
 object DemoData {
 
     val waypoints = listOf(
-        Waypoint(name = "Marina", position = Position(43.3230, -2.9820), id = "demo-wp-1"),
-        Waypoint(name = "Boya cardinal N", position = Position(43.3160, -2.9560), id = "demo-wp-2"),
-        Waypoint(name = "Fondeadero", position = Position(43.2980, -2.9330), id = "demo-wp-3"),
+        Waypoint(name = "Marina", position = Position(43.3580, -3.0280), id = "demo-wp-1"),
+        Waypoint(name = "Boya cardinal N", position = Position(43.3500, -3.0400), id = "demo-wp-2"),
+        Waypoint(name = "Fondeadero", position = Position(43.3650, -3.0600), id = "demo-wp-3"),
     )
 
     val routes = listOf(
         Route(
             name = "Ruta costera",
             waypoints = listOf(
-                RouteWaypoint("Marina", position = Position(43.3230, -2.9820)),
-                RouteWaypoint("Boya N", position = Position(43.3160, -2.9560)),
-                RouteWaypoint("Fondeadero", position = Position(43.2980, -2.9330)),
+                RouteWaypoint("Marina", position = Position(43.3580, -3.0280)),
+                RouteWaypoint("Boya N", position = Position(43.3500, -3.0400)),
+                RouteWaypoint("Fondeadero", position = Position(43.3650, -3.0600)),
             ),
             id = "demo-route-1",
         ),

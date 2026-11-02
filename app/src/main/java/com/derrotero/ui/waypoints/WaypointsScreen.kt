@@ -94,7 +94,9 @@ fun WaypointsScreen(vm: NavViewModel) {
         item {
             ScreenHeader(
                 title = "Waypoints y rutas",
-                subtitle = "${waypoints.size} waypoints · ${routes.size} rutas",
+                subtitle = "${waypoints.size} " +
+                    "${if (waypoints.size == 1) "waypoint" else "waypoints"} · " +
+                    "${routes.size} ${if (routes.size == 1) "ruta" else "rutas"}",
                 statusLabel = if (activeRouteId != null) "Ruta activa" else null,
                 statusActive = activeRouteId != null,
             )
