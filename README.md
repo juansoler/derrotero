@@ -29,8 +29,6 @@ probado con un plotter B&G/Navico, pero no depende de ninguna marca.
 
 ### Publicación como proyecto abierto
 
-* **Eliminado todo el soporte de cartas Navionics** (`.nv2`/`.nv3`) y el escáner específico
-  de esa marca. El escaneo de tarjeta SD ahora es genérico: GPX/KML/CSV y MBTiles/GPKG.
 * Añadida la licencia **Apache-2.0**, `NOTICE`, avisos de terceros y una pantalla de
   licencias en **Ajustes → Acerca de**.
 * Aviso de seguridad y de no afiliación en la primera ejecución.
