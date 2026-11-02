@@ -1,0 +1,33 @@
+.gradle/
+.kotlin/
+build/
+/local.properties
+/.idea/
+*.iml
+.DS_Store
+/captures
+captures/
+.externalNativeBuild
+.cxx
+app/release/
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Keep proprietary chart/firmware data and reverse-engineering artifacts
+# out of the public repository.
+*.upd
+*.nv2
+*.nv3
+*.nvd
+*.nvx
+*.nvm
+*.ugc
+extracted/
+Navionic/
+Navionics/
+work/
+REPORT*.md
